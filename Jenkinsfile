@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'print \'test\''
+        sh 'println \'test\''
       }
     }
   }
